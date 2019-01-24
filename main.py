@@ -6,8 +6,8 @@ from crabbie import Crabbie
 from domain import *
 from general import *
 
-PROJECT_NAME = 'theverge'
-HOMEPAGE = 'https://www.theverge.com/'
+PROJECT_NAME = '[project_name]'
+HOMEPAGE = '[url]'
 DOMAIN_NAME = get_domain_name(HOMEPAGE)
 QUEUE_FILE = PROJECT_NAME + '/queue.txt'
 CRAWLED_FILE = PROJECT_NAME + '/crawled.txt'
